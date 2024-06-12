@@ -5,8 +5,6 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-
-
 .logo {
     width: 100%;
     border-bottom: 1px solid #FBD877;
@@ -32,7 +30,6 @@ main {
     display: flex;
     justify-content: center;
     width: 100%;
-    
 }
 
 section {
@@ -51,7 +48,6 @@ section {
 }
 
 .img-container {
-
     display: block;
     text-align: center;
 }
@@ -85,7 +81,6 @@ section {
 }
 
 .featured a {
-
     color: #117777;
 }
 
