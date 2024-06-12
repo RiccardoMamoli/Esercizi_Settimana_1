@@ -2,10 +2,139 @@
     box-sizing: border-box;
     margin: 0%;
     border: 0%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+
 
 .logo {
-
     width: 100%;
     border-bottom: 1px solid #FBD877;
+    text-align: center;
 }
+
+.logo img {
+    margin: 10px;
+    height: 70px;
+}
+
+.sub-logo {
+    text-align: center;
+    background-color: #FDFBF1;
+    padding: 20px;
+}
+
+.sub-logo span {
+    font-weight: bold;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+section {
+    width: 50%;
+    margin-bottom: 50px;
+}
+
+.main-title {
+    text-align: center;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.main-title h1 {
+    font-size: 45px;
+}
+
+.img-container {
+
+    display: block;
+    text-align: center;
+}
+
+.img-description {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.main-img img {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 8px 6px 10px rgba(0, 0, 0, 0.2)
+}
+
+.caption-img {
+    color: #999999;
+    text-align: center;
+    margin-top: 3px;
+}
+
+.featured {
+    margin-top: 15px;
+    border-left: 1px solid #FFD877;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.featured span {
+    color: #B5460F;
+}
+
+.featured a {
+
+    color: #117777;
+}
+
+.ingredients-title {
+    border-bottom: 1px solid #C4F3F2 ;
+    margin-top: 30px;
+    padding-bottom: 15px;
+}
+
+.list-ingredients {
+    margin-top: 30px;
+}
+
+.list-ingredients span {
+    font-weight: bold;
+}
+
+.list-ingredients ul {
+    margin-top: 5px;
+    line-height: 40px;
+}
+
+.method-title {
+    border-bottom: 1px solid #C4F3F2 ;
+    margin-top: 30px;
+    padding-bottom: 15px;
+}
+
+.list-steps ol {
+    margin-top: 20px;
+}
+
+.step-name {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.read-more {
+    width: 50%;
+}
+
+.read-more a {
+
+    color: #117777;
+}
+
