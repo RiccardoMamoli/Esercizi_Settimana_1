@@ -1,121 +1,13 @@
 * {
     box-sizing: border-box;
-    margin: 0%;
+    /* margin: 0%; */
     border: 0%;
     font-family: "Poppins";
 }
 
-.poppins-thin {
-    font-family: "Poppins", sans-serif;
-    font-weight: 100;
-    font-style: normal;
-}
-
-.poppins-extralight {
-    font-family: "Poppins", sans-serif;
-    font-weight: 200;
-    font-style: normal;
-}
-
-.poppins-light {
-    font-family: "Poppins", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-}
-
-.poppins-regular {
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
-.poppins-medium {
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-}
-
-.poppins-semibold {
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
-    font-style: normal;
-}
-
-.poppins-bold {
-    font-family: "Poppins", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-}
-
-.poppins-extrabold {
-    font-family: "Poppins", sans-serif;
-    font-weight: 800;
-    font-style: normal;
-}
-
-.poppins-black {
-    font-family: "Poppins", sans-serif;
-    font-weight: 900;
-    font-style: normal;
-}
-
-.poppins-thin-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 100;
-    font-style: italic;
-}
-
-.poppins-extralight-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 200;
-    font-style: italic;
-}
-
-.poppins-light-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 300;
-    font-style: italic;
-}
-
-.poppins-regular-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: italic;
-}
-
-.poppins-medium-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-style: italic;
-}
-
-.poppins-semibold-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
-    font-style: italic;
-}
-
-.poppins-bold-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 700;
-    font-style: italic;
-}
-
-.poppins-extrabold-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 800;
-    font-style: italic;
-}
-
-.poppins-black-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 900;
-    font-style: italic;
-}
 
 body {
     background-image: url(../img/sfondo.png);
-
 }
 
 .container {
@@ -129,7 +21,6 @@ body {
 }
 
 main {
-
     margin-top: 15px;
     padding: 10px;
     box-shadow: 0px 5px 10px rgb(88, 87, 87);
@@ -150,17 +41,15 @@ header {
 }
 
 .arrow-button::before {
-    content: '\2192';
+    content: '\27F9';
     font-size: 20px;
     
 }
 
 .arrow-button::after {
 
-    content: '\2190';
+    content: '\27F8';
     font-size: 20px;
-    
-
 }
 
 #logo {
@@ -184,7 +73,6 @@ header {
 }
 
 .navbar-center {
-
     display: flex;
     justify-content: center;
 }
@@ -218,11 +106,9 @@ main {
 }
 
 .title p {
-
     margin-top: 10px;
     font-size: 12px;
     color: lightslategray;
-
 }
 
 .title span {
@@ -232,7 +118,6 @@ main {
 }
 
 .post-list {
-
     margin-top: 10px;
 }
 
@@ -240,11 +125,9 @@ main {
 .span-pink {
     color: #AA2072;
 }
-
 /* perchè non con le pseudo classi? */
 
 .post-list span {
-
     border: 1px solid #A5A4A4;
     border-radius: 8px;
     background-color: #E0E0E1;
@@ -255,7 +138,6 @@ main {
 }
 
 .table-main {
-
     margin-bottom: 20px;
     width: 100%;
     border-collapse: collapse;
@@ -336,7 +218,6 @@ iframe {
 .related-articles .title {
     text-align: center;
     margin-top: 15px;
-
 }
 
 .related-articles .title h2 {
@@ -345,7 +226,6 @@ iframe {
 }
 
 .linked-post {
-
     margin-bottom: 20px;
     background-color: #E6E1E2;
     padding: 15px;
@@ -354,17 +234,14 @@ iframe {
 }
 
 .linked-post a {
-
     color: #00A0CC;
 }
 
 .linked-post p {
-
     font-size: 14px;
 }
 
 .linked-post p:nth-child(3) {
-
     text-align: right;
     font-size: 12px;
 }
