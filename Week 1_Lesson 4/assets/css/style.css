@@ -264,10 +264,15 @@ main {
 
 .title-table {
     text-align: center;
+    font-weight: 500;
 }
 
 thead {
     background-color: #3369C7;
+}
+
+table th {
+    width: 33%;
 }
 
 thead tr th {
